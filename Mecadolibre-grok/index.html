@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Libre - Versión Académica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">Mercado Libre</a>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos, marcas y más..." aria-label="Buscar">
+                <button type="button" aria-label="Buscar">🔍</button>
+            </div>
+
+            <nav class="main-nav" aria-label="Menú principal">
+                <ul>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Historial</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner principal -->
+        <section class="banner" aria-label="Promociones">
+            <div class="banner-content">
+                <h1>¡Grandes ofertas de temporada!</h1>
+                <p>Envío gratis en miles de productos seleccionados</p>
+            </div>
+        </section>
+
+        <!-- Categorías principales -->
+        <section class="categories" aria-labelledby="categorias-titulo">
+            <h2 id="categorias-titulo">Categorías principales</h2>
+            <div class="categories-grid">
+                <article class="category-card">
+                    <div class="category-icon">💻</div>
+                    <h3>Tecnología</h3>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">🔌</div>
+                    <h3>Electrodomésticos</h3>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">👕</div>
+                    <h3>Ropa y accesorios</h3>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">🏠</div>
+                    <h3>Hogar</h3>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">🚗</div>
+                    <h3>Vehículos</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- Ofertas del día -->
+        <section class="offers" aria-labelledby="ofertas-titulo">
+            <h2 id="ofertas-titulo">Ofertas del día</h2>
+            <div class="products-grid">
+
+                <article class="product-card">
+                    <img src="https://placehold.co/280x220/e8e8e8/333?text=Celular+Inteligente" alt="Celular inteligente">
+                    <div class="product-info">
+                        <h3>Celular inteligente</h3>
+                        <p class="price">$800.000</p>
+                        <p class="shipping">Envío gratis</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="https://placehold.co/280x220/e8e8e8/333?text=Audífonos+Inalámbricos" alt="Audífonos inalámbricos">
+                    <div class="product-info">
+                        <h3>Audífonos inalámbricos</h3>
+                        <p class="price">$120.000</p>
+                        <p class="shipping">Llega mañana</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="https://placehold.co/280x220/e8e8e8/333?text=Computador+Portátil" alt="Computador portátil">
+                    <div class="product-info">
+                        <h3>Computador portátil</h3>
+                        <p class="price">$2.000.000</p>
+                        <p class="shipping">30% OFF · Envío gratis</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Información general -->
+        <section class="info" aria-labelledby="info-titulo">
+            <h2 id="info-titulo">Información general</h2>
+            <div class="info-grid">
+                <article class="info-card">
+                    <h3>Pago seguro</h3>
+                    <p>Protegemos tu compra con métodos de pago confiables y encriptados.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Envíos a todo el país</h3>
+                    <p>Recibe tus productos en la puerta de tu casa con seguimiento en tiempo real.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Garantía de calidad</h3>
+                    <p>Productos seleccionados con garantía del vendedor y soporte post-venta.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Mercado Libre - Página académica de práctica</p>
+            <p>Desarrollada únicamente con HTML5 y CSS · Sin JavaScript ni frameworks</p>
+            <nav class="footer-nav" aria-label="Enlaces del pie de página">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Ayuda</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
