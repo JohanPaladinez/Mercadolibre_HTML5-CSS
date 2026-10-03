@@ -1,0 +1,9 @@
+La versión manual presenta una apariencia más visual y cercana a una tienda en línea, principalmente porque utiliza imágenes reales, 
+descuentos, precios anteriores, secciones de beneficios y un banner fotográfico.
+La versión generada por Grok tiene una estructura limpia, utiliza algunas buenas prácticas de accesibilidad y hace un uso interesante 
+de CSS Grid con auto-fit y minmax() para adaptar automáticamente los elementos a diferentes tamaños de pantalla.
+
+Sin embargo, uno de los principales inconvenientes de la versión generada por la inteligencia artificial fue el uso de imágenes placeholder 
+en la sección de productos. En lugar de mostrar fotografías reales, aparecen recuadros con el nombre del producto.
+Esta comparación permite observar que una herramienta de inteligencia artificial puede generar rápidamente una estructura completa y 
+organizada, pero el resultado todavía puede requerir revisión y ajustes manuales para mejorar aspectos visuales, contenido y presentación.
